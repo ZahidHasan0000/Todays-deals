@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // if (sidebar.classList.contains('open')) {
     //     sidebar.classList.remove('open');
     sidebar.style.display = "flex";
+    // setTimeout(() => {
+      sidebar.style.left ="0%";
+    // }, 900)
     // sidebar.style.display = 'none';
     // } else {
     //     sidebar.classList.add('open');
